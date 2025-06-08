@@ -6,7 +6,7 @@ const birthdayMusic = document.getElementById("birthdayMusic");
 const texts = [
   " Nói chung là chúc Nga tuổi mới full niềm vui, full máu, full thành công luôn 🥳🔥",
   "tuổi mới chặng đường mới chúc Nga luôn thành công rực rỡ trong cuộc sống ✨",
-  "chúc cho tuổi mới hạnh phúc vui vẻ luôn tự hào với con đường mình chọn💐"
+  "chúc cho tuổi mới hạnh phúc vui vẻ luôn tự hào với con đường mình chọn💐" ,
   " thế thôi kh biết nói gì hơn nữa chúc tất cả trừ vất vả âu lo!!! hẹ hẹ hẹ"];
 
 giftBox.addEventListener('click', () => {
@@ -36,7 +36,7 @@ function typeWriter(texts, element, textIndex = 0, i = 0) {
         setTimeout(() => {
             element.innerHTML += '<br>'; // Xóa nội dung cũ
             typeWriter(texts, element, textIndex + 1); // Chuyển sang đoạn văn tiếp theo
-        }, 2000); // Đợi 5 giây rồi chuyển quan đoạn khác
+        }, 2000); // Đợi 2 giây rồi chuyển quan đoạn khác
         }
     } else {
         // Thêm gif

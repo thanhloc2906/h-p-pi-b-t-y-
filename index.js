@@ -4,9 +4,9 @@ const birthdayText = document.getElementById("birthdayText");
 const birthdayMusic = document.getElementById("birthdayMusic");
 
 const texts = [
-  "Chúc tuổi mới full niềm vui, full máu, full thành công luôn 🥳🔥",
-  "tuổi mới chặng đời mới chúc luôn thành công rực rỡ trong cuộc sống ✨",
-  "chúc mừng sinh nhật tuổi mới hạnh phúc vui vẻ luôn may mắn trong cuộc sống"];
+  " Nói chung là chúc Nga tuổi mới full niềm vui, full máu, full thành công luôn 🥳🔥",
+  "tuổi mới chặng đường mới chúc Nga luôn thành công rực rỡ trong cuộc sống ✨",
+  "chúc mừng sinh nhật tuổi mới hạnh phúc vui vẻ luôn tự hào với con đường mình chọn💐"];
 
 giftBox.addEventListener('click', () => {
     giftBox.style.display = 'none';
